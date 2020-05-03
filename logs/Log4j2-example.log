@@ -1,0 +1,495 @@
+2020-05-02 17:52:31.936  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] c.p.i.App                                : Starting App on LAPTOP-EQ6R4FD2 with PID 3152 (C:\Users\Michelle\eclipse-workspace\inventoryManagement\inventoryManagement\target\classes started by Michelle in C:\Users\Michelle\eclipse-workspace\inventoryManagement\inventoryManagement)
+2020-05-02 17:52:31.986  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37724e4b: startup date [Sat May 02 17:52:31 MST 2020]; root of context hierarchy
+2020-05-02 17:52:32.803  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2020-05-02 17:52:33.333  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2020-05-02 17:52:33.582  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$50a49e7c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-02 17:52:33.623  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-02 17:52:33.643  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-02 17:52:33.658  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-02 17:52:34.281  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2020-05-02 17:52:34.487  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2020-05-02 17:52:34.508  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2020-05-02 17:52:34.849  INFO LAPTOP-EQ6R4FD2
+			--- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-05-02 17:52:34.856  INFO LAPTOP-EQ6R4FD2
+			--- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2873 ms
+2020-05-02 17:52:36.128  INFO LAPTOP-EQ6R4FD2
+			--- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-05-02 17:52:36.151  INFO LAPTOP-EQ6R4FD2
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-02 17:52:36.153  INFO LAPTOP-EQ6R4FD2
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-02 17:52:36.655  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-05-02 17:52:36.717  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-02 17:52:36.959  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2020-05-02 17:52:36.967  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-05-02 17:52:36.972  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2020-05-02 17:52:37.249  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-05-02 17:52:38.810  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-05-02 17:52:39.096  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2020-05-02 17:52:39.588  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000227: Running hbm2ddl schema export
+2020-05-02 17:52:39.621 ERROR LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: alter table `order` drop foreign key FK_m6q2ofkj1g5aobtb2p00ajpqg
+2020-05-02 17:52:39.625 ERROR LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : Table 'inventory_management_api.order' doesn't exist
+2020-05-02 17:52:39.632 ERROR LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: alter table `product order` drop foreign key FK_ihncb5rl4lrgbx08w2sfywd1d
+2020-05-02 17:52:39.636 ERROR LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : Table 'inventory_management_api.product order' doesn't exist
+2020-05-02 17:52:39.643 ERROR LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000389: Unsuccessful: alter table `product order` drop foreign key FK_aspiia5iq682uyw2hv8ieb437
+2020-05-02 17:52:39.647 ERROR LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : Table 'inventory_management_api.product order' doesn't exist
+2020-05-02 17:53:05.305  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.SchemaExport                     : HHH000230: Schema export complete
+2020-05-02 17:53:05.999  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@37724e4b: startup date [Sat May 02 17:52:31 MST 2020]; root of context hierarchy
+2020-05-02 17:53:06.104  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.getCustomer(java.lang.Long)
+2020-05-02 17:53:06.110  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.deleteCustomer(java.lang.Long)
+2020-05-02 17:53:06.117  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.getCustomers()
+2020-05-02 17:53:06.121  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.updateCustomer(com.promineotech.inventoryManagement.entity.Customer,java.lang.Long)
+2020-05-02 17:53:06.124  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.createCustomer(com.promineotech.inventoryManagement.entity.Customer)
+2020-05-02 17:53:06.133  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.OrderController.createCustomer(java.util.Set<java.lang.Long>,java.lang.Long)
+2020-05-02 17:53:06.138  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders/{orderId}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.OrderController.updateOrder(com.promineotech.inventoryManagement.entity.Order,java.lang.Long)
+2020-05-02 17:53:06.142  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.deleteProduct(java.lang.Long)
+2020-05-02 17:53:06.151  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.updateProduct(com.promineotech.inventoryManagement.entity.Product,java.lang.Long)
+2020-05-02 17:53:06.155  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.createProduct(com.promineotech.inventoryManagement.entity.Product)
+2020-05-02 17:53:06.160  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.getProducts()
+2020-05-02 17:53:06.169  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-02 17:53:06.192  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2020-05-02 17:53:06.259  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-02 17:53:06.267  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-02 17:53:06.331  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-02 17:53:06.562  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-05-02 17:53:06.638  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-02 17:53:06.987  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-05-02 17:53:07.015  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2020-05-02 17:53:07.070  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2020-05-02 17:53:07.075  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] c.p.i.App                                : Started App in 35.434 seconds (JVM running for 40.431)
+2020-05-02 18:01:25.111  INFO LAPTOP-EQ6R4FD2
+			--- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-02 18:01:25.115  INFO LAPTOP-EQ6R4FD2
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-02 18:01:25.157  INFO LAPTOP-EQ6R4FD2
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+2020-05-02 18:01:25.214  WARN LAPTOP-EQ6R4FD2
+			--- [nio-8080-exec-1] o.s.w.s.PageNotFound                     : Request method 'POST' not supported
+2020-05-02 18:02:57.870  WARN LAPTOP-EQ6R4FD2
+			--- [nio-8080-exec-2] o.s.w.s.PageNotFound                     : Request method 'POST' not supported
+2020-05-02 18:08:09.880  WARN LAPTOP-EQ6R4FD2
+			--- [nio-8080-exec-6] o.s.w.s.PageNotFound                     : Request method 'PUT' not supported
+2020-05-02 18:11:29.399  WARN LAPTOP-EQ6R4FD2
+			--- [nio-8080-exec-8] o.s.w.s.PageNotFound                     : Request method 'PUT' not supported
+2020-05-02 18:13:03.137  WARN LAPTOP-EQ6R4FD2
+			--- [nio-8080-exec-9] o.s.w.s.PageNotFound                     : Request method 'PUT' not supported
+2020-05-02 18:18:04.182  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] c.p.i.App                                : Starting App on LAPTOP-EQ6R4FD2 with PID 9672 (C:\Users\Michelle\eclipse-workspace\inventoryManagement\inventoryManagement\target\classes started by Michelle in C:\Users\Michelle\eclipse-workspace\inventoryManagement\inventoryManagement)
+2020-05-02 18:18:04.219  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@309e6617: startup date [Sat May 02 18:18:04 MST 2020]; root of context hierarchy
+2020-05-02 18:18:04.835  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2020-05-02 18:18:05.336  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 5.1.3.Final
+2020-05-02 18:18:05.520  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bd581ac3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-02 18:18:05.556  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-02 18:18:05.573  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-02 18:18:05.585  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-02 18:18:06.113  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2020-05-02 18:18:06.236  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.a.c.c.StandardService                  : Starting service Tomcat
+2020-05-02 18:18:06.241  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.0.26
+2020-05-02 18:18:06.449  INFO LAPTOP-EQ6R4FD2
+			--- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2020-05-02 18:18:06.452  INFO LAPTOP-EQ6R4FD2
+			--- [ost-startStop-1] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 2235 ms
+2020-05-02 18:18:07.107  INFO LAPTOP-EQ6R4FD2
+			--- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2020-05-02 18:18:07.117  INFO LAPTOP-EQ6R4FD2
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-05-02 18:18:07.118  INFO LAPTOP-EQ6R4FD2
+			--- [ost-startStop-1] o.s.b.c.e.FilterRegistrationBean         : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-05-02 18:18:07.370  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2020-05-02 18:18:07.391  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-05-02 18:18:07.483  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.Version                              : HHH000412: Hibernate Core {4.3.11.Final}
+2020-05-02 18:18:07.488  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2020-05-02 18:18:07.491  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.c.Environment                        : HHH000021: Bytecode provider name : javassist
+2020-05-02 18:18:07.630  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2020-05-02 18:18:37.425 ERROR LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.a.t.j.p.ConnectionPool                 : Unable to create initial connections of pool.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:307)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:200)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:704)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:638)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:483)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:141)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:115)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:102)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:126)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcServicesImpl.java:279)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:124)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:111)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:234)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:206)
+	at org.hibernate.cfg.Configuration.buildTypeRegistrations(Configuration.java:1887)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1845)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:343)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:318)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:956)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:747)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:118)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:687)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:967)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:956)
+	at com.promineotech.inventoryManagement.App.main(App.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.maven.RunMojo$LaunchRunner.run(RunMojo.java:418)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:539)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:703)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:680)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:128)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:540)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:202)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1340)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:157)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 50 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:975)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:933)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:533)
+	... 59 more
+2020-05-02 18:18:37.552  WARN LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.e.j.i.JdbcServicesImpl               : HHH000342: Could not obtain connection to query metadata : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-05-02 18:18:37.582  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-05-02 18:18:37.604  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.e.j.i.LobCreatorBuilder              : HHH000422: Disabling contextual LOB creation as connection was null
+2020-05-02 18:18:37.810  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.h.i.a.ASTQueryTranslatorFactory      : HHH000397: Using ASTQueryTranslatorFactory
+2020-05-02 18:18:38.284  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.SchemaUpdate                     : HHH000228: Running hbm2ddl schema update
+2020-05-02 18:18:38.287  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.SchemaUpdate                     : HHH000102: Fetching database metadata
+2020-05-02 18:18:38.533  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.SchemaUpdate                     : HHH000396: Updating schema
+2020-05-02 18:18:38.789  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000261: Table found: inventory_management_api.address
+2020-05-02 18:18:38.791  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000037: Columns: [zip, city, street, id, state]
+2020-05-02 18:18:38.794  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: []
+2020-05-02 18:18:38.796  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [primary]
+2020-05-02 18:18:39.021  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000261: Table found: inventory_management_api.customer
+2020-05-02 18:18:39.023  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000037: Columns: [level, last_name, id, first_name]
+2020-05-02 18:18:39.026  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: []
+2020-05-02 18:18:39.027  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [primary]
+2020-05-02 18:18:39.177  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000261: Table found: inventory_management_api.order
+2020-05-02 18:18:39.179  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000037: Columns: [ordered, delivered, id, estimated_delivery, customer_id, invoice_amount, status]
+2020-05-02 18:18:39.183  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: [fk_m6q2ofkj1g5aobtb2p00ajpqg]
+2020-05-02 18:18:39.184  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [fk_m6q2ofkj1g5aobtb2p00ajpqg, primary]
+2020-05-02 18:18:39.444  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000261: Table found: inventory_management_api.product order
+2020-05-02 18:18:39.449  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000037: Columns: [product_id, order_id]
+2020-05-02 18:18:39.449  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: [fk_ihncb5rl4lrgbx08w2sfywd1d, fk_aspiia5iq682uyw2hv8ieb437]
+2020-05-02 18:18:39.451  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [fk_ihncb5rl4lrgbx08w2sfywd1d, primary]
+2020-05-02 18:18:39.522  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000261: Table found: inventory_management_api.product
+2020-05-02 18:18:39.524  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000037: Columns: [price, name, description, id]
+2020-05-02 18:18:39.527  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000108: Foreign keys: []
+2020-05-02 18:18:39.528  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.TableMetadata                    : HHH000126: Indexes: [primary]
+2020-05-02 18:18:39.529  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.h.t.h.SchemaUpdate                     : HHH000232: Schema update complete
+2020-05-02 18:18:40.217  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@309e6617: startup date [Sat May 02 18:18:04 MST 2020]; root of context hierarchy
+2020-05-02 18:18:40.344  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.createCustomer(com.promineotech.inventoryManagement.entity.Customer)
+2020-05-02 18:18:40.351  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.updateCustomer(com.promineotech.inventoryManagement.entity.Customer,java.lang.Long)
+2020-05-02 18:18:40.356  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.deleteCustomer(java.lang.Long)
+2020-05-02 18:18:40.360  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.getCustomers()
+2020-05-02 18:18:40.370  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.CustomerController.getCustomer(java.lang.Long)
+2020-05-02 18:18:40.374  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.OrderController.createCustomer(java.util.Set<java.lang.Long>,java.lang.Long)
+2020-05-02 18:18:40.384  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customers/{id}/orders/{orderId}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.OrderController.updateOrder(com.promineotech.inventoryManagement.entity.Order,java.lang.Long)
+2020-05-02 18:18:40.391  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[PUT]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.updateProduct(com.promineotech.inventoryManagement.entity.Product,java.lang.Long)
+2020-05-02 18:18:40.399  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.createProduct(com.promineotech.inventoryManagement.entity.Product)
+2020-05-02 18:18:40.405  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products/{id}],methods=[DELETE]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.deleteProduct(java.lang.Long)
+2020-05-02 18:18:40.409  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/products],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Object> com.promineotech.inventoryManagement.controller.ProductController.getProducts()
+2020-05-02 18:18:40.417  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-02 18:18:40.425  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2020-05-02 18:18:40.536  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-02 18:18:40.543  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-02 18:18:40.611  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-02 18:18:40.844  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-05-02 18:18:41.178  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2020-05-02 18:18:41.190  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2020-05-02 18:18:41.214  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2020-05-02 18:18:41.252  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2020-05-02 18:18:41.257  INFO LAPTOP-EQ6R4FD2
+			--- [ment.App.main()] c.p.i.App                                : Started App in 37.302 seconds (JVM running for 42.18)
+2020-05-02 18:18:53.325  INFO LAPTOP-EQ6R4FD2
+			--- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-02 18:18:53.337  INFO LAPTOP-EQ6R4FD2
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-02 18:18:53.413  INFO LAPTOP-EQ6R4FD2
+			--- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : FrameworkServlet 'dispatcherServlet': initialization completed in 68 ms
+2020-05-02 18:25:52.722 ERROR LAPTOP-EQ6R4FD2
+			--- [nio-8080-exec-3] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: detached entity passed to persist: com.promineotech.inventoryManagement.entity.Address; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.promineotech.inventoryManagement.entity.Address] with root cause
+org.hibernate.PersistentObjectException: detached entity passed to persist: com.promineotech.inventoryManagement.entity.Address
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:139)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:801)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:794)
+	at org.hibernate.jpa.event.internal.core.JpaPersistEventListener$1.cascade(JpaPersistEventListener.java:97)
+	at org.hibernate.engine.internal.Cascade.cascadeToOne(Cascade.java:350)
+	at org.hibernate.engine.internal.Cascade.cascadeAssociation(Cascade.java:293)
+	at org.hibernate.engine.internal.Cascade.cascadeProperty(Cascade.java:161)
+	at org.hibernate.engine.internal.Cascade.cascade(Cascade.java:118)
+	at org.hibernate.event.internal.AbstractSaveEventListener.cascadeAfterSave(AbstractSaveEventListener.java:470)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:295)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:195)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:126)
+	at org.hibernate.jpa.event.internal.core.JpaPersistEventListener.saveWithGeneratedId(JpaPersistEventListener.java:84)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:206)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:149)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:75)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:811)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:784)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:789)
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.persist(AbstractEntityManagerImpl.java:1181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:344)
+	at com.sun.proxy.$Proxy99.persist(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:291)
+	at com.sun.proxy.$Proxy99.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:433)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.executeMethodOn(RepositoryFactorySupport.java:436)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:421)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:393)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$DefaultMethodInvokingMethodInterceptor.invoke(RepositoryFactorySupport.java:506)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:136)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodIntercceptor.invoke(CrudMethodMetadataPostProcessor.java:122)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy101.save(Unknown Source)
+	at com.promineotech.inventoryManagement.service.CustomerService.createCustomer(CustomerService.java:32)
+	at com.promineotech.inventoryManagement.controller.CustomerController.createCustomer(CustomerController.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:967)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:869)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:843)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:142)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1091)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:673)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1526)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1482)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-05-02 18:32:23.946  WARN LAPTOP-EQ6R4FD2
+			--- [io-8080-exec-10] o.s.w.s.PageNotFound                     : Request method 'GET' not supported
+2020-05-02 18:39:30.709  WARN LAPTOP-EQ6R4FD2
+			--- [nio-8080-exec-5] o.s.w.s.PageNotFound                     : Request method 'PUT' not supported
+2020-05-02 18:46:26.221  WARN LAPTOP-EQ6R4FD2
+			--- [io-8080-exec-10] o.s.w.s.PageNotFound                     : Request method 'GET' not supported
+2020-05-02 18:46:39.533  WARN LAPTOP-EQ6R4FD2
+			--- [nio-8080-exec-1] o.s.w.s.PageNotFound                     : Request method 'GET' not supported
+2020-05-02 18:47:04.003  WARN LAPTOP-EQ6R4FD2
+			--- [nio-8080-exec-3] o.s.w.s.PageNotFound                     : Request method 'GET' not supported
+2020-05-02 18:53:14.233  WARN LAPTOP-EQ6R4FD2
+			--- [nio-8080-exec-7] o.s.w.s.PageNotFound                     : Request method 'GET' not supported
